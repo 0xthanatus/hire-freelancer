@@ -7,6 +7,7 @@ import AboutTools from "@/components/aboutToolsSection";
 import HireNow from "@/components/hireNow";
 import Contact from "@/components/contact";
 import JoinTeam from "@/components/JoinTeam";
+import Security from "@/components/Security";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,10 +16,9 @@ export default function Home() {
     <main>
       <Landing />
       <Services limit={6} />
-      <Testing />
       <JoinTeam />
       {/* <AboutTools /> */}
-      <HireNow />
+      {/* <HireNow /> */}
       <Contact />
     </main>
   );

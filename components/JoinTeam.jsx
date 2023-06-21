@@ -40,7 +40,7 @@ function JoinTeam() {
           </ul>
         </div>
       </div>
-      <div className="flex gap-2 md:flex-nowrap flex-wrap mb-6 md:mt-0 mt-6">
+      {/* <div className="flex gap-2 md:flex-nowrap flex-wrap mb-6 md:mt-0 mt-6">
         <div
           className="bg-white text-black overflow-hidden inline-block rounded-md cursor-pointer hover-card p-4"
           onMouseMove={(e) => handleHover(e)}
@@ -83,7 +83,7 @@ function JoinTeam() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-import { mailOptions, transporter } from "@/congig/nodemailer";
+import { mailOptions, transporter } from "@/config/nodemailer";
 
 export default async function handler(req, res) {
   const { mail, subject, message } = req.body;

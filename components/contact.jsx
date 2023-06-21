@@ -44,7 +44,7 @@ function Contact() {
                 required
               />
             </div>
-            <div>
+            {/* <div>
               <label htmlFor="cv" className="block mb-2 text-sm font-medium">
                 Upload your cv
               </label>
@@ -56,7 +56,7 @@ function Contact() {
                 placeholder="example.pdf"
                 required
               />
-            </div>
+            </div> */}
             <div>
               <label
                 htmlFor="subject"

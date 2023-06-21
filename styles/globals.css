@@ -37,6 +37,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.landing {
+  min-height: 70vh;
+}
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;
@@ -212,6 +215,14 @@ body {
   height: 420px;
   position: relative;
 }
+.bg-image-join-2 {
+  background-image: url("../public/19362653-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 420px;
+  position: relative;
+}
 .bg-overlay {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
@@ -235,6 +246,7 @@ body {
 }
 .item-4 {
   background-position: -424px -101px;
+  width: 51px;
 }
 .item-5 {
   background-position: -525px -101px;
@@ -294,6 +306,28 @@ body {
 .item-2-13 {
   background-position: -220px -242px;
 }
+
+/* item-3 */
+.item-3-0 {
+  background-position: -61px -827px;
+}
+.item-3-1 {
+  background-position: -307px -827px;
+}
+.item-3-2 {
+  background-position: -182px -827px;
+}
+/* item-4 */
+.item-4-0 {
+  background-position: -160px -101px;
+}
+.item-4-1 {
+  background-position: -160px -101px;
+}
+.item-4-2 {
+  background-position: -160px -101px;
+}
+
 /* pen types */
 .type-0 {
   background-position: -97px -559px;

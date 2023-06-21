@@ -13,6 +13,47 @@ export const servicesMin = [
 
 export const services = [
   {
+    title: "App Development",
+    location: "/appDevelopment",
+    description:
+      "Let’s give an ultimate medium for your next big app idea to show its traits. We offer customized mobile application development services for you irrespective of your diverse industries. ",
+  },
+  {
+    title: "Web Development",
+    location: "/webDevelopment",
+    description:
+      "Custom designed website services for you to get noticed online by customers who are looking for your growing business.",
+  },
+  {
+    title: "Security",
+    location: "/security",
+    description:
+      "Collaborate with one of the top penetration testing companies in India and USA for optimal risk management. We offer a complete range of security and penetration testing services to generate smart, simplistic, and safer user experiences.",
+  },
+];
+
+export const appDevelopment = [
+  {
+    title: "Custom Mobile App Development",
+    description:
+      "Custom mobile application development is the process of designing software applications that operate on a mobile device, and a typical mobile application works with remote computer resources over a network connection. As result, the mobile app development process entails creating installable software bundles, implementing backend services like data access via an API, and testing the application on target devices.",
+  },
+  {
+    title: "iPhone/iOS App Development",
+    description:
+      "We provide adaptable iOS app development for different businesses with exceptional user experience features. We constantly take the mobile experience to the next level by building comprehensive and knowledgeable iOS applications that satisfy all your demands and the specialists' information.",
+  },
+  {
+    title: "Android App Development",
+    description:
+      "We provide adaptable Android app development with good user experience features for different industries. We always take mobile experience to the next level by developing strong and capable Android applications that meet all of your requirements and details from the experts.",
+  },
+];
+
+export const webDevelopment = [];
+
+export const security = [
+  {
     title: "Physical Penetration Testing",
     description:
       "Hire an experienced physical penetration tester to evaluate all physical security controls and restrict attackers from accessing unwanted areas and sensitive information.",
