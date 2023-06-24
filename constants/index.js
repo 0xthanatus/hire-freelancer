@@ -34,23 +34,69 @@ export const services = [
 
 export const appDevelopment = [
   {
-    title: "Custom Mobile App Development",
+    title: "Native App Development Services",
     description:
-      "Custom mobile application development is the process of designing software applications that operate on a mobile device, and a typical mobile application works with remote computer resources over a network connection. As result, the mobile app development process entails creating installable software bundles, implementing backend services like data access via an API, and testing the application on target devices.",
+      "Native B2B and consumer apps allow you to utilize the inherent power of iOS and Android platforms with secure and performant apps.",
   },
   {
-    title: "iPhone/iOS App Development",
+    title: "Hybrid Cross-platform App Development Services",
     description:
-      "We provide adaptable iOS app development for different businesses with exceptional user experience features. We constantly take the mobile experience to the next level by building comprehensive and knowledgeable iOS applications that satisfy all your demands and the specialists' information.",
+      "Utilize the power of React Native, Flutter, and Xamarin to develop apps for multiple platforms while sharing the same code base.",
   },
   {
-    title: "Android App Development",
+    title: "Business Analysis & Consulting Services",
     description:
-      "We provide adaptable Android app development with good user experience features for different industries. We always take mobile experience to the next level by developing strong and capable Android applications that meet all of your requirements and details from the experts.",
+      "Whether you are looking to develop business apps or apps to service customers, our consultants can help you define the right tech plan.",
+  },
+  {
+    title: "Business Apps and API Integration Services",
+    description:
+      "Integrate your mobile app(s) with services you are already using and extend their use cases for your employees and users.",
+  },
+  {
+    title: "Enterprise Mobile Apps",
+    description:
+      "Customized mobile solutions to drive your operations. For example, a CMS to organize and publish content, all in a simple screen.",
+  },
+  {
+    title: "Apps for Internet of Things",
+    description:
+      "Unlock the potential of high functioning mobile apps that interact with hardware/wearables/IoT through Wi-Fi, Bluetooth, NFC, and more.",
   },
 ];
 
-export const webDevelopment = [];
+export const webDevelopment = [
+  {
+    title: "SaaS Apps Development Services",
+    description:
+      "Our SaaS consultants will help you build multi-tenant, secure, and robust SaaS solutions so that you can serve customers better.",
+  },
+  {
+    title: "Front end Development Services",
+    description:
+      "Build modern single page web applications using the reusable, dynamic, component driven architecture of React.js, Angular.js, Vue.js.",
+  },
+  {
+    title: "Progressive Web Apps Development Services",
+    description:
+      "Bring features and performance we expect from native apps to any browser and across platforms without any interruption or loss of speed.",
+  },
+  {
+    title: "Backend & Node.js Development Services",
+    description:
+      "Our software architects design solid backend to accommodate scale, flexibility to integrate, advanced data structures, and cutting edge security.",
+  },
+  {
+    title: "E-commerce Web Apps Development Services",
+    description:
+      "Using Shopify, Magento, and custom frameworks, we help you build e-shops and B2B eCommerce portals that boost your growth.",
+  },
+  {
+    title: "Custom Web Apps Development for Enterprises",
+    description:
+      "Get a performance boost across the organization by building web-based apps like inventory-, transport-, learning, and process management systems.",
+  },
+];
 
 export const security = [
   {

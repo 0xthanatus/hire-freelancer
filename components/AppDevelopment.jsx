@@ -1,27 +1,40 @@
 import { handleHover } from "@/constants/functions";
 import Image from "next/image";
 import JoinTeamImage from "../public/19362653-removebg-preview.png";
+import AndroidAppDevelopment from "../public/offerings-android-app-thumb@2x.webp";
+import IosAppDevelopment from "../public/iosApp.png";
+import HybridAppDevelopment from "../public/hybrid.png";
+
 import { appDevelopment } from "@/constants";
 
 function AddDevelopment() {
   return (
     <>
-      <div className="py-8 lg:py-16">
-        <h1 className="text-3xl font-semibold p-2 text-center mt-4">
-          <span className="text-[#485ED8]">Mobile App </span>
-          Development
+      <div className="flex justify-center">
+        <h1 className="text-3xl font-semibold p-2 text-center mt-4 w-8/12">
+          <span className="text-[#485ED8]">Mobile app </span>
+          development services to build innovative experiences
         </h1>
+      </div>
+      <div className="py-8 lg:py-16">
         <div className="flex gap-10 items-center">
           <div className="container lg:bg-none bg-image-join-2 text-center md:text-left">
             <span className="bg-overlay lg:hidden block absolute"></span>
             <div className="md:list-disc flex flex-col md:gap-4 gap-2 text-lg mt-6 bg-overlay z-10 relative">
               <p>
-                Seqrhive creates high-quality mobile applications that are both
-                feature-rich and user-friendly. We provide multi-dimensional
-                mobile app development services, taking insights from many
-                viewpoints on business, technology, end-users, and so on.
+                In a mobile-first world, customers and workers want more ways to
+                engage with your brand. Build apps to meet their needs, faster .
               </p>
-              <div></div>
+              <p>Why Seqrhive for Mobile App Development?</p>
+              <p>
+                Seqrhive’s mobile app development services allow organizations
+                to build innovative and user-friendly applications. Our team of
+                expert software engineers and developers craft scalable and
+                reliable mobile app solutions to improve your business
+                capabilities. We have powered several B2B applications by
+                integrating modern technologies like Artificial Intelligence,
+                Machine Learning, AR/VR, and others.
+              </p>
             </div>
           </div>
           <Image
@@ -30,27 +43,147 @@ function AddDevelopment() {
             className="w-[460px] hidden lg:block"
           />
         </div>
-        <div className="service-list mt-10 flex gap-6 flex-wrap justify-around ">
-          {appDevelopment?.map((service, index) => (
+
+        <div className="flex justify-center pt-5 pb-10">
+          <h1 className="text-3xl font-semibold p-2 text-center mt-4 w-8/12">
+            <span className="text-[#485ED8]">Mobile app </span>
+            development offering
+          </h1>
+        </div>
+        <div className="grid px-6 grid-cols-1 md:px-0 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-5">
+          {appDevelopment.map((x, idx) => (
             <div
-              className="w-[360px] service--list--item hover-card cursor-pointer"
-              key={index}
-              onMouseMove={(e) => handleHover(e)}
+              key={idx}
+              class="bg-gray-200 min-h-[13rem] rounded-lg p-4 transition-padding duration-500 hover:pt-6 hover:pb-6"
             >
-              <span className="hover-el-light"></span>
-              <div
-                className="overflow-hidden inline-block rounded-xl cursor-pointer hover-card h-16 w-20"
-                onMouseMove={(e) => handleHover(e)}
-              >
-                <span className={`sprite-icon-2  ${"item-4-" + index} `}></span>
-                <span className="hover-el-2 "></span>
-              </div>
-              <h2 className="text-xl font-semibold">{service?.title}</h2>
-              <p className="mt-4 text-lg">{service?.description}</p>
+              <h2 class="text-xl font-semibold mb-2 min-h-[3.5rem] text-black">
+                {x.title}
+              </h2>
+              <p class="text-gray-700">{x.description}</p>
             </div>
           ))}
         </div>
-        <div className="h-2"></div>
+
+        <div className="grid px-6 grid-cols-1 md:px-0 md:grid-cols-2 gap-10 md:gap-5 pt-16">
+          <div>
+            <Image
+              src={IosAppDevelopment}
+              alt="join team"
+              className="w-[460px]"
+            />
+          </div>
+          <div>
+            <h1 className="text-3xl font-semibold p-2 text-center my-4">
+              iOS App Development Services
+            </h1>
+            <p>
+              iOS application is known for its enhanced native experience, and
+              Seqrhive provides solutions that bring the same feature-rich
+              capabilities to your apps. Our team of iOS app developers creates
+              reliable applications that meet the intune compliance requirements
+              across email, device health, device properties, and system
+              security.
+              <br />
+              We offer iOS mobile application development services across Apple
+              devices like iPhone, iPad, and others. Our iOS app development
+              services involve,
+            </p>
+            <ul className="py-5 list-disc px-4">
+              <li>
+                iOS UI/UX design for a uniform experience across Apple devices.
+              </li>
+              <li>
+                Feature customizations and bespoke mobile application
+                development.
+              </li>
+              <li>
+                Advanced iOS testing with dedicated Quality Assurance team.
+              </li>
+              <li>Third-party integrations with custom APIs.</li>
+              <li>Deployments across Apple devices.</li>
+              <li>Optimized delivery through enhanced CI/CD methods.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="grid px-6 grid-cols-1 md:px-0 md:grid-cols-2 gap-10 md:gap-5 pt-16">
+          <div>
+            <h1 className="text-3xl font-semibold p-2 text-center my-4">
+              Android App Development Services
+            </h1>
+            <p>
+              Seqrhive provides top-notch Android app development services
+              powered through evolutionary architecture and innovations. Our
+              end-to-end solutions are highly customizable and cater to a wide
+              range of business requirements.
+              <br />
+              So whether you need standalone, native, web-based, or
+              database-driven applications, we deliver high-end mobile
+              application development services. At Seqrhive, we can help your
+              enterprise meet ever-changing market demands through,
+            </p>
+            <ul className="py-5 list-disc px-4">
+              <li>
+                Well-defined process flow and intelligent development
+                strategies.
+              </li>
+              <li>Highly secure apps compliant with major data regulations.</li>
+              <li>
+                A dedicated team that works as an extension of your
+                organization.
+              </li>
+              <li>
+                Rigorous mobile application testing with QA best practices.
+              </li>
+              <li>Deployments across Android ecosystem devices.</li>
+              <li>Cloud-based integrations and customized tools.</li>
+            </ul>
+          </div>
+          <div>
+            <Image
+              src={AndroidAppDevelopment}
+              alt="join team"
+              className="w-[460px]"
+            />
+          </div>
+        </div>
+        <div className="grid px-6 grid-cols-1 md:px-0 md:grid-cols-2 gap-10 md:gap-5 pt-16">
+          <div>
+            <Image
+              src={HybridAppDevelopment}
+              alt="join team"
+              className="w-[460px]"
+            />
+          </div>
+          <div>
+            <h1 className="text-3xl font-semibold p-2 text-center my-4">
+              Hybrid app development
+            </h1>
+            <p>
+              Hybrid app development encapsulates web-based services in
+              applications that offer native features and capabilities. Hybrid
+              app developers at Seqrhive are experienced in creating interactive
+              and engaging applications across different platforms.
+              <br />
+              We develop reusable components customized as per your business
+              requirements to deploy hybrid apps across native platforms. Our
+              hybrid app development services include, but are not limited to,
+            </p>
+            <ul className="py-5 list-disc px-4">
+              <li>Responsive UI/UX design for higher user engagement.</li>
+              <li>
+                Native features compatible across multiple operating systems.
+              </li>
+              <li>Hybrid application prototyping and testing.</li>
+              <li>Streamlined deployments using CI/CD approach.</li>
+              <li>Version updates and feature addition support.</li>
+              <li>
+                Integrations of third-party services as per business
+                requirements.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   );

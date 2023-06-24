@@ -223,6 +223,14 @@ body {
   height: 420px;
   position: relative;
 }
+.bg-image-join-3 {
+  background-image: url("../public/mobile-app-banner@2x.webp");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 420px;
+  position: relative;
+}
 .bg-overlay {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;

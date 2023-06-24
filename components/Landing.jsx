@@ -7,7 +7,7 @@ function Landing() {
         <div className=" text-center md:text-left">
           <h1 className="text-4xl  lg:text-5xl font-bold">
             Hire
-            <span className="text-[#485ED8]"> Developer</span> and{" "}
+            <span className="text-[#485ED8]"> Developer's</span> and{" "}
             <span className="text-[#485ED8]"> Penetration</span> Testers
           </h1>
           <p className="text-lg md:text-xl mt-9  max-w-[900px] ">
