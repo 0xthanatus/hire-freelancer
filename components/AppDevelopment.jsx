@@ -12,8 +12,8 @@ function AddDevelopment() {
     <>
       <div className="flex justify-center">
         <h1 className="text-3xl font-semibold p-2 text-center mt-4 w-8/12">
-          <span className="text-[#485ED8]">Mobile app </span>
-          development services to build innovative experiences
+          <span className="text-[#485ED8]">Mobile application </span>
+          development services for better and innovative experiences
         </h1>
       </div>
       <div className="py-8 lg:py-16">
@@ -22,18 +22,17 @@ function AddDevelopment() {
             <span className="bg-overlay lg:hidden block absolute"></span>
             <div className="md:list-disc flex flex-col md:gap-4 gap-2 text-lg mt-6 bg-overlay z-10 relative">
               <p>
-                In a mobile-first world, customers and workers want more ways to
-                engage with your brand. Build apps to meet their needs, faster .
+                In a mobile-dominating world, customers and workers want more
+                ways to engage with the audience, grow the brand and build apps
+                to meet their needs, faster.
               </p>
-              <p>Why Seqrhive for Mobile App Development?</p>
+              <p>Why SeqrHive is Perfect for Mobile App Development?</p>
               <p>
                 Seqrhive’s mobile app development services allow organizations
-                to build innovative and user-friendly applications. Our team of
-                expert software engineers and developers craft scalable and
-                reliable mobile app solutions to improve your business
-                capabilities. We have powered several B2B applications by
-                integrating modern technologies like Artificial Intelligence,
-                Machine Learning, AR/VR, and others.
+                and businesses to build innovative and user-friendly
+                applications. Our team of expert software engineers and
+                developers craft scalable and reliable mobile app solutions to
+                improve your company's capabilities.
               </p>
             </div>
           </div>
@@ -78,14 +77,14 @@ function AddDevelopment() {
             </h1>
             <p>
               iOS application is known for its enhanced native experience, and
-              Seqrhive provides solutions that bring the same feature-rich
-              capabilities to your apps. Our team of iOS app developers creates
+              at SeqrHive, we make sure to maintain the same feature-rich
+              capabilities on your apps. Our team of iOS app developers creates
               reliable applications that meet the intune compliance requirements
               across email, device health, device properties, and system
               security.
               <br />
               We offer iOS mobile application development services across Apple
-              devices like iPhone, iPad, and others. Our iOS app development
+              devices like iPhones, iPad, and others. Our iOS app development
               services involve,
             </p>
             <ul className="py-5 list-disc px-4">
@@ -93,15 +92,18 @@ function AddDevelopment() {
                 iOS UI/UX design for a uniform experience across Apple devices.
               </li>
               <li>
-                Feature customizations and bespoke mobile application
+                Feature customizations and tailored mobile application
                 development.
               </li>
               <li>
-                Advanced iOS testing with dedicated Quality Assurance team.
+                Advanced iOS testing with a dedicated Quality Assurance team.
               </li>
               <li>Third-party integrations with custom APIs.</li>
               <li>Deployments across Apple devices.</li>
-              <li>Optimized delivery through enhanced CI/CD methods.</li>
+              <li>
+                Optimized delivery through enhanced CI/CD methods for smooth
+                functioning.
+              </li>
             </ul>
           </div>
         </div>
@@ -112,8 +114,8 @@ function AddDevelopment() {
               Android App Development Services
             </h1>
             <p>
-              Seqrhive provides top-notch Android app development services
-              powered through evolutionary architecture and innovations. Our
+              SeqrHive provides unmatched Android app development services
+              fueled by evolutionary architecture and innovations. Our
               end-to-end solutions are highly customizable and cater to a wide
               range of business requirements.
               <br />
@@ -127,7 +129,10 @@ function AddDevelopment() {
                 Well-defined process flow and intelligent development
                 strategies.
               </li>
-              <li>Highly secure apps compliant with major data regulations.</li>
+              <li>
+                Highly secure apps which are compliant with major data
+                regulations.
+              </li>
               <li>
                 A dedicated team that works as an extension of your
                 organization.
@@ -162,17 +167,18 @@ function AddDevelopment() {
             <p>
               Hybrid app development encapsulates web-based services in
               applications that offer native features and capabilities. Hybrid
-              app developers at Seqrhive are experienced in creating interactive
+              app developers at SeqrHive are experienced in creating interactive
               and engaging applications across different platforms.
               <br />
-              We develop reusable components customized as per your business
+              We develop reusable components customized as per your company's
               requirements to deploy hybrid apps across native platforms. Our
               hybrid app development services include, but are not limited to,
             </p>
             <ul className="py-5 list-disc px-4">
-              <li>Responsive UI/UX design for higher user engagement.</li>
+              <li>User-interacting UI/UX design for higher user engagement.</li>
               <li>
-                Native features compatible across multiple operating systems.
+                Native features which are compatible across multiple operating
+                systems.
               </li>
               <li>Hybrid application prototyping and testing.</li>
               <li>Streamlined deployments using CI/CD approach.</li>

@@ -16,19 +16,19 @@ export const services = [
     title: "App Development",
     location: "/appDevelopment",
     description:
-      "Let’s give an ultimate medium for your next big app idea to show its traits. We offer customized mobile application development services for you irrespective of your diverse industries. ",
+      "Unlock Your App-o-tential: With SeqrHive, let's bring that big app idea into the world. We offer mobile application development services, specially customized to your industry needs.",
   },
   {
     title: "Web Development",
     location: "/webDevelopment",
     description:
-      "Custom designed website services for you to get noticed online by customers who are looking for your growing business.",
+      "Tailor-made websites, for your every need. At SeqrHive, we, not just build the website from scratch,  but maintain and secure it as well. With our websites, you can make your online presence stronger.  ",
   },
   {
     title: "Security",
     location: "/security",
     description:
-      "Collaborate with one of the top penetration testing companies in India and USA for optimal risk management. We offer a complete range of security and penetration testing services to generate smart, simplistic, and safer user experiences.",
+      "Our team, in association with the top security testing companies, focus on making your app and website more secure and safe. We are your one-stop solution for a complete range of security and penetration testing services to generate smart, simplistic, and safer user experiences.",
   },
 ];
 
@@ -36,32 +36,33 @@ export const appDevelopment = [
   {
     title: "Native App Development Services",
     description:
-      "Native B2B and consumer apps allow you to utilize the inherent power of iOS and Android platforms with secure and performant apps.",
-  },
-  {
-    title: "Hybrid Cross-platform App Development Services",
-    description:
-      "Utilize the power of React Native, Flutter, and Xamarin to develop apps for multiple platforms while sharing the same code base.",
-  },
-  {
-    title: "Business Analysis & Consulting Services",
-    description:
-      "Whether you are looking to develop business apps or apps to service customers, our consultants can help you define the right tech plan.",
+      "With professional assistance and expertise offered by developers and teams, we create applications specifically designed and built for a particular operating system or platform, utilizing the native programming languages and frameworks of that platform to ensure optimal performance and integration with the device's functionalities. These services aim to deliver high-quality, responsive, and efficient mobile or desktop applications on both iOS and Android tailored to the unique features and user experience of the target platform.",
   },
   {
     title: "Business Apps and API Integration Services",
     description:
-      "Integrate your mobile app(s) with services you are already using and extend their use cases for your employees and users.",
-  },
-  {
-    title: "Enterprise Mobile Apps",
-    description:
-      "Customized mobile solutions to drive your operations. For example, a CMS to organize and publish content, all in a simple screen.",
+      "At SeqrHive, we encompass professional solutions that focus on developing and integrating applications tailored to meet specific business needs. These services aim to seamlessly connect various software systems and applications through APIs, streamlining data exchange and enhancing overall efficiency within an organization.",
   },
   {
     title: "Apps for Internet of Things",
     description:
-      "Unlock the potential of high functioning mobile apps that interact with hardware/wearables/IoT through Wi-Fi, Bluetooth, NFC, and more.",
+      "These pertain to applications developed to interact with and control interconnected devices and objects in the IoT ecosystem. These apps enable users to remotely monitor, manage, and receive data from IoT-enabled devices, facilitating greater automation, convenience, and data-driven decision-making.",
+  },
+  {
+    title: "Hybrid Cross-platform App Development Services",
+    description:
+      "Leverage the capabilities of React Native, Flutter, and Xamarin to build cross-platform applications, enabling the reuse of a single code base across multiple platforms.",
+  },
+  {
+    title: "Business Analysis & Consulting Services",
+    description:
+      "Our team of consultants can help you make the right decision by choosing the perfect tech plan for developing business apps. ",
+  },
+
+  {
+    title: "Enterprise Mobile Apps",
+    description:
+      "Get customized mobile application solutions to maximize profits. With Content Management System, your task gets simplified on just one screen.",
   },
 ];
 

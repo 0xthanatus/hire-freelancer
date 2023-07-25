@@ -18,10 +18,10 @@ function Services({ limit }) {
             Our <span className="text-[#485ED8]">Services</span>
           </h1>
           <p className="mt-6 text-lg max-w-4xl">
-            Collaborate with one of the top penetration testing companies in
-            India and USA for optimal risk management. We offer a complete range
-            of security and penetration testing services to generate smart,
-            simplistic, and safer user experiences.
+            In collaboration with the top penetration testing companies across
+            India and the USA, we provide optimal risk management. We offer a
+            complete range of security and penetration testing services to
+            generate smart, simplistic, and safer user experiences.
           </p>
         </div>
         <div className="hidden md:block">

@@ -1,4 +1,7 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+import { FiInstagram } from "react-icons/fi";
 
 function Footer() {
   return (
@@ -11,18 +14,34 @@ function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-        <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-          <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
-              Licensing
-            </a>
-          </li>
-        </ul>
+        <div className="flex">
+          <button
+            onClick={() =>
+              (window.location.href = `https://api.whatsapp.com/send?phone=${+918590475775}&text=${"Hello"}`)
+            }
+            type="button"
+          >
+            <FaWhatsapp className="w-5 h-5 mr-3" />
+          </button>
+
+          <button
+            onClick={() =>
+              (window.location.href = `mailto:${"gr3ys3c@gmail.com"}`)
+            }
+            type="button"
+          >
+            <MdOutlineEmail className="w-5 h-5 mr-3 outline-gray-100" />
+          </button>
+
+          <button
+            onClick={() =>
+              (window.location.href =
+                "https://www.instagram.com/seqrhive/?igshid=MzRlODBiNWFlZA%3D%3D")
+            }
+          >
+            <FiInstagram className="w-5 h-5 outline-gray-100" />
+          </button>
+        </div>
       </div>
     </footer>
   );

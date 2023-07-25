@@ -6,15 +6,18 @@ function Landing() {
       <div className="bg-blur-grad mt-24 md:mt-28 ">
         <div className=" text-center md:text-left">
           <h1 className="text-4xl  lg:text-5xl font-bold">
-            Hire
-            <span className="text-[#485ED8]"> Developers</span> and{" "}
-            <span className="text-[#485ED8]"> Penetration</span> Testers
+            With SeqrHive, secure your
+            <span className="text-[#485ED8]"> cyberspace</span> and your{" "}
+            <span className="text-[#485ED8]"> digital</span> life
           </h1>
           <p className="text-lg md:text-xl mt-9  max-w-[900px] ">
-            Prevent your system, application, or network from potential security
-            breaches and vulnerabilities with the help of our penetration
-            testing services. Hire security testers to ensure that your
-            business-critical data stays beyond the reach of hackers.
+            In today's interconnected and technology-driven landscape, ensuring
+            the safety and confidentiality of our digital assets has become more
+            essential than ever. We, at SeqrHive, are dedicated to protecting
+            your system, application, or your network from potential security
+            breaches and vulnerabilities. With high-end penetration testing
+            services, we make it cent per cent sure that your business-critical
+            data stays beyond the reach of hackers.
           </p>
           {/* <div className="flex mt-20  w-fit border border-blue-500 rounded-lg overflow-hidden hover-card">
             <div className="flex md:w-[300px]">

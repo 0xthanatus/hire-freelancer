@@ -9,8 +9,8 @@ function JoinTeam() {
   return (
     <div className="mt-28">
       <h1 className="text-3xl font-semibold p-2 text-center mt-4">
-        Say Hi to your <span className="text-[#485ED8]">Freelancing </span>
-        career
+        Begin your career <span className="text-[#485ED8]">with us. </span>
+        Join us today.
       </h1>
       <div className="flex gap-10 items-center">
         <Image
@@ -21,13 +21,12 @@ function JoinTeam() {
         <div className="container md:bg-none bg-image-join text-center md:text-left">
           <span className="bg-overlay md:hidden block absolute"></span>
           <ul className="md:list-disc flex flex-col md:gap-4 gap-2 text-lg  mt-6 bg-overlay z-10 relative">
-            <li>Work with the best cyber security freelancing team</li>
-            <li>Time zone matched with a minimum if 4+ hours overlap</li>
-            <li>Simple Lorem ipsum dolor sit.</li>
-            <li>Time zone matched with a minimum if 4+ hours overlap</li>
+            <li>Work with the best Cyber security team</li>
+            <li>Flexible time zone, work from the comfort of your home. </li>
+            <li>Chance to learn and grow more.</li>
             <li>
-              Simple Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Expedita, adipisci?
+              Build your professional network by interacting with like-minded
+              people, and industrial experts.{" "}
             </li>
             <li className="list-none">
               <button
