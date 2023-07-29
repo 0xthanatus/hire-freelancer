@@ -22,34 +22,6 @@ function NavBar() {
         />
       </Link>
       <div className="flex items-center">
-        <div className="px-5">
-          <button
-            onClick={() =>
-              (window.location.href = `https://api.whatsapp.com/send?phone=${+918590475775}&text=${"Hello"}`)
-            }
-            type="button"
-          >
-            <FaWhatsapp className="w-5 h-5 mr-3" />
-          </button>
-
-          <button
-            onClick={() =>
-              (window.location.href = `mailto:${"gr3ys3c@gmail.com"}`)
-            }
-            type="button"
-          >
-            <MdOutlineEmail className="w-5 h-5 mr-3 outline-gray-100" />
-          </button>
-
-          <button
-            onClick={() =>
-              (window.location.href =
-                "https://www.instagram.com/seqrhive/?igshid=MzRlODBiNWFlZA%3D%3D")
-            }
-          >
-            <FiInstagram className="w-5 h-5 outline-gray-100" />
-          </button>
-        </div>
         <Link
           href={"/contact"}
           className="join px-4 py-2 bg-[#485ED8] rounded-lg shadow-lg h-fit flex"
