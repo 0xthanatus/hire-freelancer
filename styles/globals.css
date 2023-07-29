@@ -377,7 +377,20 @@ body {
 .tool-2 {
   background-position: -264px -707px;
 }
+
+.landing{
+  background-image: url("../public/landing-bg.png");
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: right bottom ;
+}
+
 /* responsive */
+@media screen and (max-width: 968px) {
+  .landing {
+    background-image: none;
+  }
+}
 @media screen and (max-width: 768px) {
   .wrapper {
     padding: 0 30px;

@@ -23,11 +23,12 @@ function WebDevelopment() {
           <div className="container lg:bg-none bg-image-join-3 text-center md:text-left">
             <span className="bg-overlay lg:hidden block absolute"></span>
             <div className="md:list-disc flex flex-col md:gap-4 gap-2 text-lg mt-6 bg-overlay z-10 relative">
-              <p>
-                Seqrhive the power of modern web frameworks to build progressive
-                web apps that scale .
-              </p>
-              <p>Why Choose Seqrhive for Web Development?</p>
+              <h1 className="text-2xl font-semibold p-2  mt-4">
+                Why Choose
+                <span className="text-[#485ED8]"> Seqrhive </span>
+                for Web Development?
+              </h1>
+              <p className=""> </p>
               <p>
                 We are a web development company that purely focuses on building
                 fully functional, robust, and scalable web applications. We
@@ -47,11 +48,8 @@ function WebDevelopment() {
 
         <div className="flex justify-center pt-5 pb-10">
           <h1 className="text-3xl font-semibold p-2 text-center mt-4 w-8/12">
-            Custom
-            <span className="text-[#485ED8]">
-              {" "}
-              Web Application Development{" "}
-            </span>
+            Custom Web Application
+            <span className="text-[#485ED8]"> Development </span>
             Offerings
           </h1>
         </div>
@@ -79,7 +77,8 @@ function WebDevelopment() {
           </div>
           <div>
             <h1 className="text-3xl font-semibold p-2 text-center my-4">
-              Progressive web applications using modern frameworks
+              <span className="text-[#485ED8]"> Progressive </span> web
+              applications using modern frameworks
             </h1>
             <p>
               We have over a decade of experience in building world-class B2B
@@ -172,7 +171,8 @@ function WebDevelopment() {
           </div>
           <div>
             <h1 className="text-3xl font-semibold p-2 text-center my-4">
-              Structured architectural patterns for developing systems at scale
+              Structured <span className="text-[#485ED8]"> architectural </span>{" "}
+              patterns for developing systems at scale
             </h1>
             <p>
               We help build large scale web applications adhering to Google’s
@@ -212,7 +212,8 @@ function WebDevelopment() {
         <div className="grid px-6 grid-cols-1 md:px-0 md:grid-cols-2 gap-10 md:gap-5 pt-16">
           <div>
             <h1 className="text-3xl font-semibold p-2 text-center my-4">
-              Great web apps start with great front-end
+              Great <span className="text-[#485ED8]"> Web apps </span> start
+              with great front-end
             </h1>
             <p>
               Slow load times, poor performance, and dated UX design can impact
@@ -258,7 +259,8 @@ function WebDevelopment() {
           </div>
           <div>
             <h1 className="text-3xl font-semibold p-2 text-center my-4">
-              Navigate web complexities with experienced consultants
+              Navigate web complexities with{" "}
+              <span className="text-[#485ED8]"> experienced </span> consultants
             </h1>
             <p>
               There are a lot of firms that can build web apps. But there are

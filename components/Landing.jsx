@@ -7,8 +7,11 @@ function Landing() {
         <div className=" text-center md:text-left">
           <h1 className="text-4xl  lg:text-5xl font-bold">
             With SeqrHive, secure your
-            <span className="text-[#485ED8]"> cyberspace</span> and your{" "}
-            <span className="text-[#485ED8]"> digital</span> life
+            <span className="text-[#485ED8]">
+              {" "}
+              cyberspace <br />
+            </span>{" "}
+            and your <span className="text-[#485ED8]"> digital</span> life
           </h1>
           <p className="text-lg md:text-xl mt-9  max-w-[900px] ">
             In today's interconnected and technology-driven landscape, ensuring
