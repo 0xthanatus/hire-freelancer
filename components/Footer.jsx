@@ -36,7 +36,7 @@ function Footer() {
           <button
             onClick={() =>
               (window.location.href =
-                "https://www.instagram.com/seqrhive/?igshid=MzRlODBiNWFlZA%3D%3D")
+                "https://www.instagram.com/__sejoy_ner__/?r=nametag")
             }
           >
             <FiInstagram className="w-5 h-5 outline-gray-100" />
